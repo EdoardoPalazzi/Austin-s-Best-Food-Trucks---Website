@@ -1,0 +1,137 @@
+#container {
+    width: 100%;
+}
+
+#logo-div {
+    width: 14%;
+    margin-left: 43%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#logo {
+    display: block;
+}
+
+#login-button, #logout {
+    border-radius: 5px;
+    background-color: rgb(226, 124, 8);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-bar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+li {
+    flex: 1 1 25%;
+    padding: 20px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+li a {
+    color: rgb(226, 124, 8);
+    text-decoration: none;
+    font-family: helvetica; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content {
+    color: rgb(226, 124, 8);
+    text-decoration: none;
+    font-family: helvetica; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#input table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(226, 124, 8);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#buttons {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login, #create {
+    color: rgb(226, 124, 8);
+    text-decoration: none;
+    font-family: helvetica; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    flex: 0 1 auto;
+}
+
+li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#homePageImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description {
+    font-family: helvetica; 
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#footer {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: #d3d3d3;
+    align-items: center;
+}
+
+#contact {
+    flex: 1 1 75%;
+    font-family: helvetica; 
+    font-size: 18px;
+    text-align: center;
+}
+
+#signature {
+    flex: 1 1 25%;
+    font-family: helvetica; 
+    font-size: 18px;
+    text-align: center;
+}

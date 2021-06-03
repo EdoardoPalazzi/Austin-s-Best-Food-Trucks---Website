@@ -1,0 +1,173 @@
+#container {
+    width: 100%;
+}
+
+#logo {
+    display: block;
+    float: left;
+    margin-right: 2%;
+    width: 90px;
+}
+
+#nav-bar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+  
+li {
+    flex: 1 1 25%;
+    padding: 20px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+li a {
+    color: rgb(226, 124, 8);
+    text-decoration: none;
+    font-family: helvetica; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+form {
+    text-align: center;
+    margin: 2% 0px;
+}
+
+.truckInfo {
+    padding: 6px;
+}
+
+#allTrucks {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trucks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.truckNames {
+    font-family: 'Courier New';
+    text-align: left;
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.ratings {
+    float: right;
+    font-size: 25px;
+}
+
+.num {
+    padding: 0%;
+    margin: 0%;
+}
+
+.addy {
+    padding: 0%;
+    margin: 0%;
+}
+
+.websites {
+    padding: 0%;
+    margin: 0%;
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+#footer {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: #d3d3d3;
+    align-items: center;
+}
+
+#contact {
+    flex: 1 1 75%;
+    font-family: helvetica; 
+    font-size: 18px;
+    text-align: center;
+}
+
+#signature {
+    flex: 1 1 25%;
+    font-family: helvetica; 
+    font-size: 18px;
+    text-align: center;
+}
+
+#all {
+    display:block;
+}
+
+#italian {
+    display:none;
+}
+
+#asian {
+    display:none;
+}
+
+#mediterranean {
+    display:none;
+}
+
+#mexican {
+    display:none;
+}
+
+#sa {
+    display:none;
+}
+
+#american {
+    display:none;
+}
+
+#dessert {
+    display:none;
+}
